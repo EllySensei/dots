@@ -50,5 +50,5 @@ Contains rice stuff and a bit more.
 
 # Installation
 
-Copy all contents of folder to home directory or copy what you want to its folder
+Copy all contents of folder to home directory or copy what you want to its folder.
 
