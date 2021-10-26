@@ -1,0 +1,33 @@
+[module/bspwm]
+type = internal/bspwm
+
+label-focused = 
+label-focused-background = ${colors.nord3}
+;label-focused-underline= ${colors.nord8}
+label-focused-foreground = ${colors.nord15}
+label-focused-padding = 1
+
+label-occupied = 
+label-occupied-foreground = ${colors.nord15}
+label-occupied-background = ${colors.nord3}
+label-occupied-padding = 1
+
+label-urgent = %icon%!
+label-urgent-background = ${colors.nord4}
+label-urgent-padding = 1
+
+label-empty = %icon%
+label-empty-foreground = ${colors.nord15}
+label-empty-background = ${colors.nord3}
+label-empty-padding = 1
+
+;ws-icon-0 = "I;"
+;ws-icon-1 = "II;"
+;ws-icon-2 = "III;"
+;ws-icon-3 = "IV;"
+;ws-icon-4 = "V;"
+;ws-icon-5 = "VI;"
+;ws-icon-6 = "VII;"
+;ws-icon-7 = "Desktop;"
+ws-icon-default = ""
+; vim:ft=dosini

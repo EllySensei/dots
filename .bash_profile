@@ -1,0 +1,10 @@
+#
+# ~/.bash_profile
+#
+export PATH="/home/mafuyu/.local/bin:$PATH"
+export QT_STYLE_OVERRIDE=kvantum
+export QT_QPA_PLATFORMTHEME=gtk2
+export DESKTOP_SESSION=gnome
+export ZDOTDIR="/home/mafuyu/.config/zsh"
+export TERMINAL="kitty"
+[[ -f ~/.bashrc ]] && . ~/.bashrc

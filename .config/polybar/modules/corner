@@ -1,0 +1,43 @@
+[module/space]
+type = custom/text
+content = " "
+
+[module/void]
+type = custom/text
+content-foreground= ${colors.nord3}
+content-background= ${colors.nord3}
+content = " "
+
+[module/left-color]
+type = custom/text
+content = %{T7}%{T-}
+content-foreground = ${colors.nord3}
+
+[module/right-color]
+type = custom/text
+content = %{T7}%{T-}
+content-foreground = ${colors.nord3}
+
+[module/left-center]
+type = custom/text
+content = %{T7}%{T-}
+content-foreground = ${colors.nord1}
+
+[module/right-center]
+type = custom/text
+content = %{T7}%{T-}
+content-foreground = ${colors.nord1}
+
+[module/left]
+type = custom/text
+content = %{T7}%{T-}
+content-foreground = ${colors.blue0}
+
+[module/right]
+type = custom/text
+content = %{T7}%{T-}
+content-foreground = ${colors.blue3}
+
+
+
+; vim:ft=dosini

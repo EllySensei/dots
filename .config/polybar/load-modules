@@ -1,0 +1,15 @@
+include-file= ~/.config/polybar/colors
+include-file= ~/.config/polybar/settings
+include-file= ~/.config/polybar/wm
+include-file= ~/.config/polybar/modules/bspwm
+include-file= ~/.config/polybar/modules/corner
+include-file= ~/.config/polybar/modules/eth
+include-file= ~/.config/polybar/modules/cpu
+include-file= ~/.config/polybar/modules/memory
+include-file= ~/.config/polybar/modules/pulseaudio
+include-file= ~/.config/polybar/modules/mpd
+include-file= ~/.config/polybar/modules/date
+include-file= ~/.config/polybar/modules/xwindow
+include-file= ~/.config/polybar/modules/fs
+include-file= ~/.config/polybar/modules/temp
+; vim:ft=dosini

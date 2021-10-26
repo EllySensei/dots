@@ -1,0 +1,69 @@
+### ARCHIVE EXTRACTION
+# usage: ex <file>
+ex ()
+{
+  if [ -f $1 ] ; then
+    case $1 in
+      *.tar.bz2)   tar xjf $1   ;;
+      *.tar.gz)    tar xzf $1   ;;
+      *.bz2)       bunzip2 $1   ;;
+      *.rar)       unrar x $1   ;;
+      *.gz)        gunzip $1    ;;
+      *.tar)       tar xf $1    ;;
+      *.tbz2)      tar xjf $1   ;;
+      *.tgz)       tar xzf $1   ;;
+      *.zip)       unzip $1     ;;
+      *.Z)         uncompress $1;;
+      *.7z)        7z x $1      ;;
+      *.deb)       ar x $1      ;;
+      *.tar.xz)    tar xf $1    ;;
+      *.tar.zst)   unzstd $1    ;;
+      *)           echo "'$1' cannot be extracted via ex()" ;;
+    esac
+  else
+    echo "'$1' is not a valid file"
+  fi
+}
+# Neovim Default
+export EDITOR="nvim"
+
+### Aliases ###
+# use exa instead of ls
+alias ls="exa -al --color=always --group-directories-first"  
+alias la="exa -a --color=always --group-directories-first"  
+alias ll="exa -l --color=always --group-directories-first" 
+alias lt="exa -aT --color=always --group-directories-first" 
+# Neovim
+alias v="nvim" 
+
+# osu! Skinning
+alias wav2ogg='for f in *.wav; do ffmpeg -i "$f" -c:a libvorbis -q:a 4 "${f/%wav/ogg}"; done && mkdir wav && mv *.wav wav' 
+
+# Arch Commands (using Powerpill now)
+alias sysupd="sudo pacman -Syu" 
+alias aurupd="yay -Sua" 
+alias pac="sudo pacman -S" 
+
+# Confirmation
+alias cp="cp -i"
+alias mv="mv -i"
+alias rm="rm -i"
+
+# youtube-dl
+alias yta-aac="youtube-dl --extract-audio --audio-format aac "
+alias yta-best="youtube-dl --extract-audio --audio-format best "
+alias yta-flac="youtube-dl --extract-audio --audio-format flac "
+alias yta-m4a="youtube-dl --extract-audio --audio-format m4a "
+alias yta-mp3="youtube-dl --extract-audio --audio-format mp3 "
+alias yta-opus="youtube-dl --extract-audio --audio-format opus "
+alias yta-vorbis="youtube-dl --extract-audio --audio-format vorbis "
+alias yta-wav="youtube-dl --extract-audio --audio-format wav "
+alias ytv-best="youtube-dl -f bestvideo+bestaudio "
+
+# Colorize grep output (good for log files)
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+
+# Miscellaneous
+alias nf="neofetch"

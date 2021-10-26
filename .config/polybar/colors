@@ -1,0 +1,34 @@
+[colors]
+;background = ${xrdb:color0:#222}
+background = #00
+background-alt = #00
+;foreground = ${xrdb:color7:#222}
+foreground = ${colors.nord4}
+foreground-alt = #00
+primary = #00
+secondary = #00
+alert = #00
+
+nord0=#2E3440
+nord1=#3B4252
+nord2=#434C5E
+nord3=#4C566A
+nord4=#D8DEE9
+nord5=#E5E9F0
+nord6=#ECEFF4
+nord7=#8FBCBB
+nord8=#88C0D0
+nord9=#81A1C1
+nord10=#5E81AC
+nord11=#BF616A
+nord12=#D08770
+nord13=#EBCB8B
+nord14=#A3BE8C
+nord15=#B48EAD
+
+blue0=#45B5E6
+blue1=#5AB4E8
+blue2=#27B7DB
+blue3=#2EA4FF
+
+; vim:ft=dosini
