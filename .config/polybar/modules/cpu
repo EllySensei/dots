@@ -1,7 +1,7 @@
 [module/cpu]
 type = internal/cpu
 interval = 2
-format-prefix = " "
+format-prefix = "  "
 format-prefix-foreground = ${colors.nord4}
 format-prefix-background = ${colors.blue2}
 ;format-underline = #f90000

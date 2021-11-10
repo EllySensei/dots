@@ -44,7 +44,7 @@ label-offline-background = ${colors.nord1}
 ;   %title%
 ; Default: %artist% - %title%
 label-song =  %artist% - %title%
-
+label-song-maxlen = 30
 ; Available tokens:
 ;   %elapsed%
 ;   %total%

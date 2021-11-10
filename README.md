@@ -22,7 +22,7 @@ Contains rice stuff and a bit more.
 
 [Rofi](https://archlinux.org/packages/community/x86_64/rofi/) *theme work in progress*
 
-*alternative menu* [dmenu](https://tools.suckless.org/dmenu/)
+*alternative menu* [dmenu](https://tools.suckless.org/dmenu/) [Luke Smith's Build (Recommended)](https://github.com/LukeSmithXYZ/dmenu)
 
 *wallpaper setter* [nitrogen](https://archlinux.org/packages/extra/x86_64/nitrogen/)
 
